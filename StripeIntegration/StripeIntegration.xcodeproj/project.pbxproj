@@ -12,6 +12,13 @@
 		463DB557207B417800968422 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 463DB555207B417800968422 /* Main.storyboard */; };
 		463DB559207B417900968422 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 463DB558207B417900968422 /* Assets.xcassets */; };
 		463DB55C207B417900968422 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 463DB55A207B417900968422 /* LaunchScreen.storyboard */; };
+		463DB564207B519400968422 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463DB563207B519400968422 /* APIClient.swift */; };
+		463DB56D207B5A7400968422 /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463DB567207B5A7400968422 /* CheckoutViewController.swift */; };
+		463DB56E207B5A7400968422 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463DB568207B5A7400968422 /* Buttons.swift */; };
+		463DB56F207B5A7400968422 /* BrowseProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463DB569207B5A7400968422 /* BrowseProductsViewController.swift */; };
+		463DB570207B5A7400968422 /* CheckoutRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463DB56A207B5A7400968422 /* CheckoutRowView.swift */; };
+		463DB571207B5A7400968422 /* PaymentContextFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463DB56B207B5A7400968422 /* PaymentContextFooterView.swift */; };
+		463DB572207B5A7400968422 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463DB56C207B5A7400968422 /* SettingsViewController.swift */; };
 		DD72A3004A1F7A75060C0C29 /* Pods_StripeIntegration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B0D539C9E3578A7CB040CF9 /* Pods_StripeIntegration.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +31,13 @@
 		463DB558207B417900968422 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		463DB55B207B417900968422 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		463DB55D207B417900968422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		463DB563207B519400968422 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		463DB567207B5A7400968422 /* CheckoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
+		463DB568207B5A7400968422 /* Buttons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		463DB569207B5A7400968422 /* BrowseProductsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowseProductsViewController.swift; sourceTree = "<group>"; };
+		463DB56A207B5A7400968422 /* CheckoutRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutRowView.swift; sourceTree = "<group>"; };
+		463DB56B207B5A7400968422 /* PaymentContextFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentContextFooterView.swift; sourceTree = "<group>"; };
+		463DB56C207B5A7400968422 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		6B0D539C9E3578A7CB040CF9 /* Pods_StripeIntegration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StripeIntegration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7644622E0720B137AA9A893 /* Pods-StripeIntegration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StripeIntegration.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StripeIntegration/Pods-StripeIntegration.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,14 +83,29 @@
 		463DB550207B417800968422 /* StripeIntegration */ = {
 			isa = PBXGroup;
 			children = (
+				463DB563207B519400968422 /* APIClient.swift */,
 				463DB551207B417800968422 /* AppDelegate.swift */,
 				463DB553207B417800968422 /* ViewController.swift */,
 				463DB555207B417800968422 /* Main.storyboard */,
 				463DB558207B417900968422 /* Assets.xcassets */,
 				463DB55A207B417900968422 /* LaunchScreen.storyboard */,
 				463DB55D207B417900968422 /* Info.plist */,
+				463DB566207B5A7400968422 /* FILES */,
 			);
 			path = StripeIntegration;
+			sourceTree = "<group>";
+		};
+		463DB566207B5A7400968422 /* FILES */ = {
+			isa = PBXGroup;
+			children = (
+				463DB567207B5A7400968422 /* CheckoutViewController.swift */,
+				463DB568207B5A7400968422 /* Buttons.swift */,
+				463DB569207B5A7400968422 /* BrowseProductsViewController.swift */,
+				463DB56A207B5A7400968422 /* CheckoutRowView.swift */,
+				463DB56B207B5A7400968422 /* PaymentContextFooterView.swift */,
+				463DB56C207B5A7400968422 /* SettingsViewController.swift */,
+			);
+			path = FILES;
 			sourceTree = "<group>";
 		};
 		E3D23F9A750E7D1585C9CC1D /* Pods */ = {
@@ -218,8 +247,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				463DB56F207B5A7400968422 /* BrowseProductsViewController.swift in Sources */,
+				463DB570207B5A7400968422 /* CheckoutRowView.swift in Sources */,
+				463DB56E207B5A7400968422 /* Buttons.swift in Sources */,
+				463DB56D207B5A7400968422 /* CheckoutViewController.swift in Sources */,
 				463DB554207B417800968422 /* ViewController.swift in Sources */,
 				463DB552207B417800968422 /* AppDelegate.swift in Sources */,
+				463DB571207B5A7400968422 /* PaymentContextFooterView.swift in Sources */,
+				463DB564207B519400968422 /* APIClient.swift in Sources */,
+				463DB572207B5A7400968422 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,7 +404,10 @@
 				DEVELOPMENT_TEAM = KC9N23CAXG;
 				INFOPLIST_FILE = StripeIntegration/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Marvel.StripeIntegration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -385,7 +424,10 @@
 				DEVELOPMENT_TEAM = KC9N23CAXG;
 				INFOPLIST_FILE = StripeIntegration/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Marvel.StripeIntegration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
