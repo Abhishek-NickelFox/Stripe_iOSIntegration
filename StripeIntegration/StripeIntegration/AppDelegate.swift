@@ -7,15 +7,22 @@
 //
 
 import UIKit
+import Stripe
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    let clientKey = "pk_test_CUWfOTkei6mGl4JZJ3Y4VI6g"
+    let clientSecret = "sk_test_y7WUgAAwR1zGwT2gtXFOlTHe"
+    
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+    func application(_ application: UIApplication,
+                     didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+
+        STPPaymentConfiguration.shared().publishableKey = self.clientKey
+
         return true
     }
 

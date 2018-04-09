@@ -1,12 +1,15 @@
 PODS:
+  - Alamofire (4.7.1)
   - Stripe (12.1.1)
 
 DEPENDENCIES:
+  - Alamofire (~> 4.7)
   - Stripe
 
 SPEC CHECKSUMS:
+  Alamofire: 68d7d521118d49c615a8d2214d87cdf525599d30
   Stripe: f8e8feff38ba5caf7b2568c64eab96b0440ecb95
 
-PODFILE CHECKSUM: 4bc92e91a3f0694191da194ce6cf2a1f7c23ceb7
+PODFILE CHECKSUM: 606a4213f6e20814ba0bb41bd81f8c6a4bbadc9b
 
 COCOAPODS: 1.3.1
